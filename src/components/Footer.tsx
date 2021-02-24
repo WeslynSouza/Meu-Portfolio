@@ -12,13 +12,29 @@ export function Footer() {
                 
                 <div className={styles.footerRight}>
                     <ul>
-                        <li>Linkedin</li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/wesley-de-souza-851271161/">
+                                Linkedin
+                            </a>
+                        </li>
                         <li>/</li>
-                        <li>GitHub</li>
+                        <li>
+                            <a href="https://github.com/WeslynSouza">
+                                GitHub
+                            </a>
+                        </li>
                         <li>/</li>
-                        <li>Twitter</li>
+                        <li>
+                            <a href="https://twitter.com/Weslyn01">
+                                Twitter
+                            </a>
+                        </li>
                         <li>/</li>
-                        <li>Instagram</li>
+                        <li>
+                            <a href="https://www.instagram.com/wsley_lyn/">
+                                Instagram
+                            </a>
+                        </li>
                     </ul>
                     <p>Wesley.i476@gmail.com</p>
                 </div>
@@ -27,10 +43,18 @@ export function Footer() {
             <p>
                 <FaRegCopyright/>
                 Wesley de Souza 2021 | 
-                <FaLinkedin/>
-                <FaGithub/>
-                <FaTwitter/>
-                <FaInstagram/>   
+                <a href="https://www.linkedin.com/in/wesley-de-souza-851271161/">
+                    <FaLinkedin/>
+                </a>
+                <a href="https://github.com/WeslynSouza">
+                    <FaGithub/>
+                </a>
+                <a href="https://twitter.com/Weslyn01">
+                    <FaTwitter/>
+                </a>
+                <a href="https://www.instagram.com/wsley_lyn/">
+                    <FaInstagram/> 
+                </a>         
             </p>
         </div>
     )
