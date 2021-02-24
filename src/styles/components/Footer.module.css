@@ -1,0 +1,77 @@
+
+.footerContainer {
+    width: 100%;
+    height: 246px;
+
+    background: var(--blue);
+    color: var(--white);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.footerContainer > div {
+    flex: 1;
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 1rem;
+}
+
+.footerContainer > div .footerLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.footerContainer > div .footerLeft h1 {
+    font-size: 2.2rem;
+}
+
+.footerContainer > div .footerLeft h2 {
+    font-size: 1.3rem;
+}
+
+.footerContainer > div .footerRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footerContainer > div .footerRight ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    list-style: none;
+}
+
+.footerContainer > div .footerRight ul li {
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+
+.footerContainer > div .footerRight ul li:first-child {
+    margin-left: 0;
+}
+
+.footerContainer > div .footerRight p {
+    font-size: 1.2rem;
+}
+
+.footerContainer > p {
+    width: 380px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

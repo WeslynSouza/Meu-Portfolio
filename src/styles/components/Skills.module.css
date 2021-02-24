@@ -1,0 +1,34 @@
+
+.skillsContainer {
+    width: 100%;
+    height: 35vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start
+}
+
+.skillsContainer > h1 {
+    color: var(--blue);
+
+    font-size: 2.5rem;
+    font-weight: 600;
+
+    margin-bottom: 3rem;
+}
+
+.skillsContainer > div {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 2rem;
+}
+
+.skillsContainer > div img{
+    width: 115px;
+    height: 115px;
+}

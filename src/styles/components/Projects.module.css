@@ -1,0 +1,62 @@
+
+.projectsContainer {
+    width: 100%;
+    height: 85vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectsContainer h1 {
+    color: var(--blue);
+    
+    font-size: 2.5rem;
+    font-weight: 600;
+
+    margin-bottom: 4rem;
+}
+
+.projectsContainer > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projectsContainer > div .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectsContainer > div .project h3 {
+    color: var(--text);
+
+    font-size: 1.3rem;
+    font-weight: 600;
+    
+    margin-top: 1rem;
+}
+
+.projectsContainer > div .project div {
+    width: 20rem;
+    height: 13rem;
+
+    color: var(--white);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    margin: 1rem 1rem;
+    border-radius: 1rem;
+
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.10);
+    transition: filter .2s;
+}
+
+.projectsContainer > div .project div:hover {
+    filter: brightness(.9);
+}

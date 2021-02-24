@@ -1,0 +1,46 @@
+
+.aboutContainer {
+    width: 100%;
+    height: 55vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 3rem;
+}
+
+.aboutContainer img {
+    width: 22rem;
+    height: 22rem;
+
+    border-radius: 9999px;
+    margin-left: 4rem;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
+}
+
+.aboutContainer > div {
+    width: 36rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutContainer > div h1 {
+    color: var(--blue);
+
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.aboutContainer > div p {
+    color: var(--text);
+
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    margin-top: 2rem;
+}
