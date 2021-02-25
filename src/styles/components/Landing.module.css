@@ -7,9 +7,8 @@
     align-items: center;
 }
 
-.landingContainer img {
+.landingContainer > img {
     width: 700px;
-    opacity: .9;
 }
 
 .landingContainer > div {
