@@ -32,3 +32,27 @@
     width: 115px;
     height: 115px;
 }
+
+@media( max-width: 400px ) {
+
+    .skillsContainer {
+        width: 100%;
+        height: 85vh;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 2rem;
+    }
+
+    .skillsContainer > div { 
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;   
+    }
+
+    .skillsContainer > div img {
+        margin: 1rem;
+    }
+}

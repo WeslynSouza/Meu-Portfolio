@@ -59,3 +59,23 @@
 .projectsContainer > div .project div:hover {
     filter: brightness(.9);
 }
+
+@media( max-width: 400px ) {
+    .projectsContainer {
+        width: 100%;
+        height: 115vh;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .projectsContainer h1 {    
+        margin-bottom: 1rem;
+    }
+
+    .projectsContainer > div .project:nth-child(odd) {
+        display: none;
+    }
+}
