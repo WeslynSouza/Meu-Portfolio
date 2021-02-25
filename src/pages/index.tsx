@@ -13,16 +13,16 @@ export default function Home() {
     <>
       <Navbar/>
       <div className={styles.container}>
-        <section id="section-1">
+        <section id="Inicio">
           <Landing/>
           <Line/>
         </section>
-        <section id="section-2">
+        <section id="Sobre-mim">
           <About/>
           <Skills/>
           <Line/>
         </section>
-        <section id="section-3">
+        <section id="Meus-projetos">
           <Projects/>
         </section>
       </div>

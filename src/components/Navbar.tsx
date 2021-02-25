@@ -11,17 +11,17 @@ export function Navbar() {
                 <Scrollspy items={ ['section-1', 'section-2', 'section-3']} currentClassName='is-current'>
                     <ul>
                         <li>
-                            <a href="#section-1">
+                            <a href="#Inicio">
                                 Início
                             </a>
                         </li>
                         <li>
-                            <a href="#section-2">
+                            <a href="#Sobre-mim">
                                 Sobre mim
                             </a>
                         </li>
                         <li>
-                            <a href="#section-3">
+                            <a href="#Meus-projetos">
                                 Meus projetos
                             </a>
                         </li>
