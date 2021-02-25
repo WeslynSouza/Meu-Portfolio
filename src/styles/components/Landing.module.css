@@ -54,7 +54,7 @@
     margin: 0 1.5rem;
 }
 
-@media( max-width: 400px ) {
+@media( max-width: 500px ) {
     .landingContainer {
         height: 75vh;
         flex-direction: column;

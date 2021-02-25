@@ -16,7 +16,7 @@
     justify-content: flex-start;
     align-items: center;
 
-    padding: 1rem 1.5rem;
+    padding: 2rem 1.5rem;
 }
 
 .sidebarActive > div {
@@ -56,6 +56,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+    margin-top: 4rem;
 }
 
 .sidebarActive ul li {
@@ -65,9 +67,10 @@
     align-items: center;
     justify-content: flex-start;
 
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     font-weight: 400;
     
     margin-top: 2rem;
-    border-bottom: 1px solid var(--blue);
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--blue);
 }

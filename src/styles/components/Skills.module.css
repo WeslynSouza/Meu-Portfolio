@@ -33,7 +33,7 @@
     height: 115px;
 }
 
-@media( max-width: 400px ) {
+@media( max-width: 500px ) {
 
     .skillsContainer {
         width: 100%;
