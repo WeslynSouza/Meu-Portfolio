@@ -48,11 +48,13 @@
 
 @media( max-width: 500px ) {
     .aboutContainer {
-        height: 95vh;
+        height: 95%;
 
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
+        margin: 4rem;
     }
 
     .aboutContainer img {

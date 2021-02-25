@@ -56,9 +56,10 @@
 
 @media( max-width: 500px ) {
     .landingContainer {
-        height: 75vh;
+        height: 75%;
         flex-direction: column;
         justify-content: center;
+        margin: 6rem 0;
     }
 
     .landingContainer img{
