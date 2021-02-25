@@ -1,5 +1,6 @@
-
+import { FaBars } from 'react-icons/fa';
 import styles from '../styles/components/Navbar.module.css';
+import Scrollspy from 'react-scrollspy';
 
 export function Navbar() {
     return (
@@ -7,13 +8,31 @@ export function Navbar() {
             <div>
                 <h3>Meu portfólio</h3>
 
-                <ul>
-                    <li>Início</li>
-                    <li>Sobre mim</li>
-                    <li>Meus projetos</li>
-                </ul>
+                <Scrollspy items={ ['section-1', 'section-2', 'section-3']} currentClassName='is-current'>
+                    <ul>
+                        <li>
+                            <a href="#section-1">
+                                Início
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#section-2">
+                                Sobre mim
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#section-3">
+                                Meus projetos
+                            </a>
+                        </li>
+                    </ul>
+                </Scrollspy>
+                
             </div>
             
+            <button>
+                <FaBars/>
+            </button>
         </div>
     )
 }

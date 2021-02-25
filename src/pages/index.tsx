@@ -13,12 +13,18 @@ export default function Home() {
     <>
       <Navbar/>
       <div className={styles.container}>
-        <Landing/>
-        <Line/>
-        <About/>
-        <Skills/>
-        <Line/>
-        <Projects/>
+        <section id="section-1">
+          <Landing/>
+          <Line/>
+        </section>
+        <section id="section-2">
+          <About/>
+          <Skills/>
+          <Line/>
+        </section>
+        <section id="section-3">
+          <Projects/>
+        </section>
       </div>
       <Footer/>
     </>

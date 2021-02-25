@@ -12,6 +12,10 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.10);
 }
 
+.navbarContainer > button {
+    display: none;
+}
+
 .navbarContainer div {
     width: 100%;
     max-width: 1300px;
@@ -40,4 +44,31 @@
     font-size: 1.3rem;
     font-weight: 400;
     margin-left: 1.4rem;
+}
+
+@media( max-width: 370px ) {
+    .navbarContainer {
+        justify-content: flex-start;
+    }
+
+    .navbarContainer > div{
+        display: none;
+    }
+
+    .navbarContainer > button {
+        width: 3rem;
+        height: 3rem;
+
+        background: var(--white);
+        color: var(--blue);
+
+        font-size: 2.4rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border: 0;
+        margin-left: 1rem;
+    }
 }

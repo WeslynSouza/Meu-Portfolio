@@ -21,6 +21,13 @@ body {
 	background: var(--background);
 }
 
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 @media(max-width: 1080px) {
 	html {
 		font-size: 93.75;
