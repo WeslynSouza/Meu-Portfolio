@@ -53,6 +53,7 @@
     }
 
     .skillsContainer > div img {
-        margin: 2rem;
+        width: 48%;
+        margin-bottom: 2.5rem;
     }
 }
