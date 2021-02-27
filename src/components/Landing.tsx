@@ -4,8 +4,6 @@ import styles from '../styles/components/Landing.module.css';
 export function Landing() {
     return (
         <div className={styles.landingContainer}>
-            <img src="img/OBJECTS.svg" alt="frontend"/>
-
             <div>
                 <h1>Wesley de Souza</h1>
                 <h2>Desenvolvedor full-stack</h2>
@@ -15,6 +13,8 @@ export function Landing() {
                     <a href="https://www.linkedin.com/in/wesley-de-souza-851271161/">Linkedin</a>
                 </div>
             </div>
+
+            <img src="img/OBJECTS.svg" alt="frontend"/>
         </div>
     )
 }

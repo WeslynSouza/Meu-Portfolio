@@ -29,8 +29,9 @@
 }
 
 .skillsContainer > div img{
-    width: 115px;
     height: 115px;
+    border-radius: 9999px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
 @media( max-width: 500px ) {
@@ -48,12 +49,13 @@
 
     .skillsContainer > div { 
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;   
     }
 
     .skillsContainer > div img {
-        width: 48%;
+        width: 42%;
+        height: 42%;
         margin-bottom: 2.5rem;
     }
 }

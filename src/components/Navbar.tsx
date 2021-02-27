@@ -11,7 +11,11 @@ export function Navbar() {
     return (
             <div className={styles.navbarContainer}>
                 <div className={styles.menuPrincipal}>
-                    <h3>Meu portfólio</h3>
+                    <h3>
+                        <a href="/">
+                            Meu portfólio
+                        </a>
+                    </h3>
 
                     <Scrollspy items={ ['section-1', 'section-2', 'section-3']} currentClassName='is-current'>
                         <ul>

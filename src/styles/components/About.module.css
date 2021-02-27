@@ -15,7 +15,7 @@
     height: 22rem;
 
     border-radius: 9999px;
-    margin-left: 4rem;
+    margin-left: 3rem;
 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
 }
@@ -27,6 +27,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-right: 1rem;
 }
 
 .aboutContainer > div h1 {
@@ -72,6 +73,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin: 0;
     }
 
 }
